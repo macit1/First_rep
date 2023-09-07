@@ -7,3 +7,16 @@ for number in numbers:
 average = sumOfNums / count
 print("The list of numbers is:", numbers)
 print("The average of all the numbers is:", average)
+
+test_list = [4, 5, 8, 9, 10, 17]
+
+# printing list
+print("The original list : " + str(test_list))
+# Median of list
+# Using loop + "~" operator
+test_list.sort()
+mid = len(test_list) // 2
+res = (test_list[mid] + test_list[~mid]) / 2
+
+# Printing result
+print("Median of list is : " + str(res))
