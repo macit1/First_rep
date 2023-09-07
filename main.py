@@ -17,6 +17,3 @@ print("The original list : " + str(test_list))
 test_list.sort()
 mid = len(test_list) // 2
 res = (test_list[mid] + test_list[~mid]) / 2
-
-# Printing result
-print("Median of list is : " + str(res))
